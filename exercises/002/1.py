@@ -133,3 +133,5 @@ exponentiation = 2 ** 5
 modulo = 5 % 3 # The modulo operator gives you the remainder of a division. You divide 5 by 3, the result is 1 and the remainder is 2
 
 # That's it for the recap! On to the actual exercise! :)
+
+* thanks sir mk harry has read the note:
