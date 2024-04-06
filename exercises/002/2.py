@@ -11,7 +11,7 @@ dict = {
 alphabet = []
 
 
-
+pls sir needs more time to revise my note on list, dict and indexing
 
 
 
