@@ -3,6 +3,8 @@
 result = 0
 
 
+result = 3 *  pow((5-2), 11)
+print(result)
 
 
 
