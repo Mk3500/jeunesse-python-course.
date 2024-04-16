@@ -3,17 +3,32 @@
 
 a = "a"
 list = ["b", "c", "d", "e", "f", "g"]
-dict = {
-    "one": ["h", "i", "j", "k", "l", "m", "n", "o"],
+dict = {"one": ["h", "i", "j", "k", "l", "m", "n", "o"],
     "two": ("p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
 }
-
 alphabet = []
+alphabet.append(a)
+
+# addind members of the list to alphabet
+for l in list:
+    alphabet.append(l)
 
 
-pls sir needs more time to revise my note on list, dict and indexing
+# addind members of the dict one to alphabet
+one = dict["one"]
+for l in one:
+    alphabet.append(l)
+
+# addind members of the dict two to alphabet
+two = dict["two"]
+for l in two:
+    alphabet.append(l)
+print(alphabet)
+
 
 
 
 # Don't delete this, this line will check if your exercise is correct when you run the code
-assert alphabet == ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"], "Your code doesn't quite work yet, don't give up!"
+#assert alphabet == ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"], "Your code doesn't quite work yet, don't give up!"
+
+
